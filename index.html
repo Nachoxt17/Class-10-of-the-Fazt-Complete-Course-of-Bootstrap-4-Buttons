@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!--Agregando este Link de Abajo agregamos a Bootstrap 4 la Librería de FontAwesome, que sirve para Usar/Poner Íconos.-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Bootstrap 4 Course Class 10 - Buttons</title>
+                        <!--Botones.-->
+</head>
+<body>
+
+<h1 class="h1 text-center">+-Bootstrap 4 Buttons:_</h1>
+<!--En esta Clase vamos a ver las Opciones de Estilización de Botones en Bootstrap 4 con sus distintas Clases.-->
+
+<hr class="bg-dark">
+
+<h1>Buttons per Bootstrap 4 Color Class:_</h1>
+<!--Botones con Clases de Los Colores por Nombre Clave de Bootstrap4.-->
+<div class="py-3" style="background-color: lightseagreen;">
+<button class="btn btn-primary">Button 1 class="btn btn-primary"</button>
+<br>
+<button class="btn btn-secondary">Button 2 class="btn btn-secondary"</button>
+<br>
+<button class="btn btn-success">Button 3 class="btn btn-success"</button>
+<br>
+<button class="btn btn-info">Button 4 class="btn btn-info"</button>
+<br>
+<button class="btn btn-warning">Button 5 class="btn btn-warning"</button>
+<br>
+<button class="btn btn-danger">Button 6 class="btn btn-danger"</button>
+<br>
+<button class="btn btn-light">Button 7 class="btn btn-light"</button>
+<br>
+<button class="btn btn-dark">Button 8 class="btn btn-dark"</button>
+<br>
+<button class="btn btn-link">Button 9 class="btn btn-link". This one is Exclusive to the Class "btn".</button>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Different HTML Tags made Buttons with the class="btn btn-***". This only stylizes them, but does not change their functionality:_</h1>
+<!--Diferentes Etiquetas de HTML que podemos Estilizar como Botones con Clases de Los Colores por Nombre Clave de Bootstrap4, acá solo se muetran algunos ejemplos.-->
+<div class="py-3" style="background-color: lightgreen;">
+<a class="btn btn-primary" href="#">This is an A Html Tag Element with class="btn btn-success".</a>
+<br>
+<button type="submit" class="btn btn-success">SEND - Submit Button Example</button>
+<br>
+<input type="button" class="btn btn-secondary" value="OK - Input Button Example">
+<br>
+<input type="submit" class="btn btn-light" value="SEND - Submit Button Example">
+<br>
+<input type="reset" class="btn btn-info" value="REFRESH - Reset/Refresh Button Example">
+</div>
+
+<hr class="bg-dark">
+
+<h1>Buttons with Outline Class, class="btn btn-outline-***":_</h1>
+<!--Botones con la Clase Contorno(Outline) y las Clases de Los Colores por Nombre Clave de Bootstrap4, hace que resalte más ante un Botón Normal.-->
+<div class="py-3" style="background-color: black;">
+<button class="btn btn-outline-primary">Button 1 class="btn btn-outline-primary"</button>
+<br>
+<button class="btn btn-outline-secondary">Button 2 class="btn btn-outline-secondary"</button>
+<br>
+<button class="btn btn-outline-success">Button 3 class="btn btn-outline-success"</button>
+<br>
+<button class="btn btn-outline-info">Button 4 class="btn btn-outline-info"</button>
+<br>
+<button class="btn btn-outline-warning">Button 5 class="btn btn-outline-warning"</button>
+<br>
+<button class="btn btn-outline-danger">Button 6 class="btn btn-outline-danger"</button>
+<br>
+<button class="btn btn-outline-light">Button 7 class="btn btn-outline-light"</button>
+<br>
+<button class="btn btn-outline-dark">Button 8 class="btn btn-outline-dark"</button>
+<br>
+<button class="btn btn-outline-link">Button 9 class="btn btn-outline-link". This one is Exclusive to the Class "btn".</button>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Buttons with Size Classes:_</h1>
+<!--Botones por sus Clases que modifican sus Tamaños.-->
+<div class="py-3" style="background-color: lightsalmon;">
+<button class="btn btn-primary btn-sm">Small Button - class="btn btn-primary btn-sm"</button>
+<br><br>
+<button class="btn btn-secondary">Normal Button - class="btn btn-secondary"</button>
+<br><br>
+<button class="btn btn-success btn-lg">Large Button - class="btn btn-success btn-lg"</button>
+<br><br>
+<button class="btn btn-info btn-block">All Width or "Block" Button - class="btn btn-info btn-block"</button>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Buttons with Icons (Of Our FontAwesome Library), &lt;i class="fa fa-***"&gt;...&lt;/i&gt; :_</h1>
+<!--Botones con Íconos que también pueden usarse en Cualquier otra parte del Códogo, Agregados vía la Librería de FontAwesome a Bootstrap 4.-->
+<div class="py-3" style="background-color: limegreen;">
+<button class="btn btn-primary btn-lg">
+    <i class="fa fa-user"></i>
+    User Icon Button - &lt;i class="fa fa-user"&gt;&lt;/i&gt;
+</button>
+<br>
+<button class="btn btn-ligth btn-lg">
+    <i class="fa fa-at"></i>
+    At Icon Button - &lt;i class="fa fa-at"&gt;&lt;/i&gt;
+</button>
+<br>
+<button class="btn btn-success btn-lg">
+    <i class="fa fa-bell"></i>
+    Bell Icon Button - &lt;i class="fa fa-bell"&gt;&lt;/i&gt;
+</button>
+<br>
+<button class="btn btn-info btn-lg">
+    <i class="fa fa-check"></i>
+    Check Icon Button - &lt;i class="fa fa-check"&gt;&lt;/i&gt;
+</button>
+<br>
+<button class="btn btn-warning btn-lg">
+    <i class="fa fa-cloud-upload"></i>
+    Cloud-Upload Icon Button - &lt;i class="fa fa-cloud-upload"&gt;&lt;/i&gt;
+</button>
+<h2 class="bg-secondary">This only were a Few Exaples, but there are Thousands of Icons you can use avaible at <a class="btn btn-primary" href="https://fontawesome.com/icons?d=gallery">https://fontawesome.com/icons?d=gallery</a></h2>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Buttons States Classes:_</h1>
+<div class="py-3" style="background-color: lightskyblue;">
+<!--Los 2 Estados de Botones en Bootstrap 4 son Activado(active) y Desactivado(disabled). En el Estado Activado(active) es como el Botón se muestra normalmente y cambia de animación (si las tiene) en caso de que
+    No esté el Cursor encima de él, Pongamos el Cursor encima de él o le hagamos Click. En el Estado Desactivado(disabled) el Botón no muestra ninguna animación ante el movimiento del Cursor o un Click y permanece
+    en la animación que tendría si estuviera en el Estado Activado(active) y le estubiéramos haciendo Click.-->
+<button class="btn btn-dark active">Button in Active State</button>
+<br><br>
+<button class="btn btn-dark disabled">Button in Disabled State</button>
+<br>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Dropdown Menu 1 Button Class:_</h1>
+<!--Botones Desplegables, que despliegan un Menú hacia donde sobre más Espacio en la Aplicación. Se hacen Creando un DIV class="dropdown" que va a contener al Botón, el Menú y sus Opciones y dentro de él un Botón
+ con el Atributo data-toggle="dropdown", luego debajo del Botón y dentro del mismo DIV class="dropdown" creamos un DIV class="dropdown-menu" que va a ser el Menú que contenga a todas las Opciones del 
+ Menú Desplegable. Dentro de este DIV class="dropdown-menu" ponemos Elementos con class="dropdown-item" que serían los Ítems Opciones del Menú, siendo conveniente que sean Elementos A con un Link o Referencia
+que lleven a cualquier lado.-->
+<div class="py-3" style="background-color: lavender;">
+    <div class="dropdown">
+        <button class="btn btn-success" data-toggle="dropdown">
+            Dropdown Menu Button Example
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">First Option</a>
+            <a href="#" class="dropdown-item">Second Option</a>
+            <a href="#" class="dropdown-item">Third Option</a>
+            <a href="#" class="dropdown-item">Fourth Option</a>
+            <a href="#" class="dropdown-item">Fifth Option</a>
+        </div>
+    </div>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Buttons Group Classes, Horizontal and Vertical:_</h1>
+<!--Botones Agrupados/Botones en Grupo, que se muestran unidos uno con otro en vez de Separados. Se hacen Creando un DIV class="btn-group" para un Grupo Horizontal Por Defecto o un DIV class="btn-group-vertical" 
+para un Grupo Vertical que va a contener a los Botones, y dentro de élponemos a todos los botones que queramos con sus class="btn btn-***".-->
+<div class="py-3" style="background-color: blueviolet">
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Button 1</button>
+        <button type="button" class="btn btn-secondary">Button 2</button>
+        <button type="button" class="btn btn-success">Button 3</button>
+    </div>
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-info">Button 4</button>
+        <button type="button" class="btn btn-dark">Button 5</button>
+        <button type="button" class="btn btn-light">Button 6</button>
+    </div>
+</div>
+
+<hr class="bg-dark">
+
+<h1>Buttons Toolbar Groups Class:_</h1>
+<!--Sirve para Agrupar Botones y/o Grupos de Botones en Forma de Fila(Osea de Manera Horizontal). Se hace Creando un DIV class="btn btn-toolbar" y poniendo Adentro los Botones y/o Grupos de Botones.-->
+<div class="py-3 btn btn-toolbar" style="background-color: chartreuse">
+    <div class="mx-3 btn-group">
+        <button type="button" class="btn btn-primary">Button 1</button>
+        <button type="button" class="btn btn-secondary">Button 2</button>
+        <button type="button" class="btn btn-success">Button 3</button>
+    </div>
+    <div class="mx-3 btn-group">
+        <button type="button" class="btn btn-info">Button 4</button>
+        <button type="button" class="btn btn-dark">Button 5</button>
+        <button type="button" class="btn btn-light">Button 6</button>
+    </div>
+</div>
+
+<hr class="bg-dark">
+
+
+
+
+<!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
